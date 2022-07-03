@@ -1,0 +1,31 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = agnatyuk
+	email = agnatyuk@croc.ru
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+
+
+[alias]
+	fe = fetch
+	br = branch
+	ci = commit -s
+	co = checkout
+	cp = cherry-pick
+	gr = grep -n --color --extended-regexp --fixed-strings
+	me = merge --no-commit
+	rb = rebase -i --autosquash
+	st = status
+	last = log -n 1 --pretty=format:"%H"
+	up = remote update 
+	fix = commit --fixup
+
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
