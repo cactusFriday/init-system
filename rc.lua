@@ -157,12 +157,6 @@ vicious.register(net_wireless, vicious.widgets.wifi, '<span color="#7F9F7F">${ss
 memwidget = wibox.widget.textbox()
 vicious.register(memwidget, vicious.widgets.mem, '<span color="#8DDE58"> RAM:$1%</span><span color="#cccccc"> |</span>', 13)
 
--- battery widget
-local battery_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
-
--- cpu-widget
-local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
-
 -- {{{ Wibar
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
